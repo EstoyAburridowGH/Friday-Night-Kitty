@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Butterfly", "kitty1", [255, 93, 171]],
+		["Stressed", "kitty2", [255, 58, 103]],
+		["Beautiful Smile", "kitty3", [253, 48, 40]]
+	],
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "yay",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

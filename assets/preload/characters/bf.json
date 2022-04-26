@@ -2,7 +2,7 @@
 	"animations": [
 		{
 			"offsets": [
-				-5,
+				0,
 				0
 			],
 			"loop": false,
@@ -13,8 +13,8 @@
 		},
 		{
 			"offsets": [
-				5,
-				-6
+				51,
+				-14
 			],
 			"loop": false,
 			"fps": 24,
@@ -24,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-20,
-				-51
+				0,
+				-55
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +35,8 @@
 		},
 		{
 			"offsets": [
-				-46,
-				27
+				-11,
+				10
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,8 +46,8 @@
 		},
 		{
 			"offsets": [
-				-48,
-				-7
+				-6,
+				-3
 			],
 			"loop": false,
 			"fps": 24,
@@ -79,7 +79,7 @@
 		},
 		{
 			"offsets": [
-				-46,
+				-36,
 				27
 			],
 			"loop": false,
@@ -101,41 +101,8 @@
 		},
 		{
 			"offsets": [
-				-3,
-				5
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "hey",
-			"indices": [],
-			"name": "BF HEY"
-		},
-		{
-			"offsets": [
-				14,
-				18
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "hurt",
-			"indices": [],
-			"name": "BF hit"
-		},
-		{
-			"offsets": [
-				-4,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "scared",
-			"indices": [],
-			"name": "BF idle shaking"
-		},
-		{
-			"offsets": [
-				37,
-				11
+				208,
+				212
 			],
 			"loop": false,
 			"fps": 24,
@@ -145,8 +112,8 @@
 		},
 		{
 			"offsets": [
-				37,
-				5
+				206,
+				212
 			],
 			"loop": true,
 			"fps": 24,
@@ -156,8 +123,8 @@
 		},
 		{
 			"offsets": [
-				37,
-				69
+				206,
+				212
 			],
 			"loop": false,
 			"fps": 24,
@@ -167,40 +134,18 @@
 		},
 		{
 			"offsets": [
-				-10,
-				-16
+				-1,
+				-66
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "dodge",
 			"indices": [],
 			"name": "boyfriend dodge"
-		},
-		{
-			"offsets": [
-				294,
-				267
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "attack",
-			"indices": [],
-			"name": "boyfriend attack"
-		},
-		{
-			"offsets": [
-				-40,
-				-40
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "pre-attack",
-			"indices": [],
-			"name": "bf pre attack"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/BF_sanrio",
 	"position": [
 		0,
 		350
@@ -208,9 +153,9 @@
 	"healthicon": "bf",
 	"flip_x": true,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		82,
+		76,
+		255
 	],
 	"camera_position": [
 		0,

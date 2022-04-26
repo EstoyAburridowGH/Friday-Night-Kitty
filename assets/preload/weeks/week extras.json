@@ -1,0 +1,21 @@
+{
+	"songs": [
+		["Really Happy", "kitty3", [158, 158, 158]],
+		["The Dark Desire", "demon", [224, 0, 0]],
+		["Stars Of Darkness", "kuromi", [14, 35, 42]]
+	],
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"weekBackground": "",
+
+	"storyName": "",
+	"weekBefore": "tutorial",
+	"weekName": "",
+	"startUnlocked": true,
+
+	"hideStoryMode": true,
+	"hideFreeplay": false
+}

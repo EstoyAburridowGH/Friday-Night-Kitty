@@ -1692,6 +1692,8 @@ class ChartingState extends MusicBeatState
 					vocals.pause();
 					vocals.time = FlxG.sound.music.time;
 				}
+
+				trace('Time: ${FlxG.sound.music.time}');
 			}
 
 			//ARROW VORTEX SHIT NO DEADASS
@@ -1758,12 +1760,16 @@ class ChartingState extends MusicBeatState
 				if (curQuant < 0) curQuant = 0;
 				
 				daquantspot *=  Std.int(32/quants[curQuant]);
+
+				trace('Time: ${FlxG.sound.music.time}');
 			}
 			if (FlxG.keys.justPressed.RIGHT)
 			{
 				curQuant ++;
 				if (curQuant > quants.length-1) curQuant = quants.length-1;
 				daquantspot *=  Std.int(32/quants[curQuant]);
+
+				trace('Time: ${FlxG.sound.music.time}');
 			}
 			quant.animation.play('q', true, false, curQuant);
 			var feces:Float;
@@ -1844,14 +1850,17 @@ class ChartingState extends MusicBeatState
 			if (FlxG.keys.pressed.SHIFT)
 				shiftThing = 4;
 
-			if (FlxG.keys.justPressed.RIGHT && !vortex|| FlxG.keys.justPressed.D)
+			if (FlxG.keys.justPressed.RIGHT && !vortex|| FlxG.keys.justPressed.D) {
 				changeSection(curSection + shiftThing);
+				trace('Time: ${FlxG.sound.music.time}');
+			}
 			if (FlxG.keys.justPressed.LEFT && !vortex|| FlxG.keys.justPressed.A) {
 				if(curSection <= 0) {
 					changeSection(_song.notes.length-1);
 				} else {
 					changeSection(curSection - shiftThing);
 				}
+				trace('Time: ${FlxG.sound.music.time}');
 			}
 		} else if (FlxG.keys.justPressed.ENTER) {
 			for (i in 0...blockPressWhileTypingOn.length) {
@@ -2696,13 +2705,7 @@ class ChartingState extends MusicBeatState
 
 	function loadJson(song:String):Void
 	{
-		//make it look sexier if possible
-		if (CoolUtil.difficulties[PlayState.storyDifficulty] != "Normal"){
-		PlayState.SONG = Song.loadFromJson(song.toLowerCase()+"-"+CoolUtil.difficulties[PlayState.storyDifficulty], song.toLowerCase());
-			
-		}else{
 		PlayState.SONG = Song.loadFromJson(song.toLowerCase(), song.toLowerCase());
-		}
 		MusicBeatState.resetState();
 	}
 

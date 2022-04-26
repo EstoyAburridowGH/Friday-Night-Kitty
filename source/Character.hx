@@ -314,6 +314,7 @@ class Character extends FlxSprite
 		}
 	}
 
+	var cancelAnims:Array<String> = ["sad", "eat", "insanee"];
 	public function playAnim(AnimName:String, Force:Bool = false, Reversed:Bool = false, Frame:Int = 0):Void
 	{
 		specialAnim = false;

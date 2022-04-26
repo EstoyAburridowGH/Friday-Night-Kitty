@@ -1,0 +1,166 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-31,
+				-28
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-23,
+				-28
+			],
+			"anim": "singDOWN-alt",
+			"fps": 24,
+			"name": "down2",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				11
+			],
+			"anim": "eat",
+			"fps": 24,
+			"name": "eat",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				29,
+				11
+			],
+			"anim": "idle1",
+			"fps": 24,
+			"name": "idle1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle-alt",
+			"fps": 24,
+			"name": "idle2",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				51,
+				-26
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				50,
+				-23
+			],
+			"anim": "singLEFT-alt",
+			"fps": 24,
+			"name": "left2",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-56,
+				-2
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-44,
+				-1
+			],
+			"anim": "singRIGHT-alt",
+			"fps": 24,
+			"name": "right2",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				39,
+				-7
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				38,
+				-8
+			],
+			"anim": "singUP-alt",
+			"fps": 24,
+			"name": "up2",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "insanee",
+			"loop": false,
+			"name": "grunt"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/kitty2",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "kitty2",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		58,
+		103
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

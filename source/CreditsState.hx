@@ -81,6 +81,18 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['Kitty Team'],
+			['Daralynarts', 		'DaraIcon', 		'Director and Artist/Animator', 							'https://twitter.com/daralynarts', 		'7e4c74'],
+			['EstoyAburridow', 		'aburridow_icon',	'Programmer', 												'https://twitter.com/EstoyAburridop', 	'b8def5'],
+			['BitfoxOriginal', 		'Bitfox', 			'Music and Sound Effects',									'https://twitter.com/BitfoxOriginal?t=8WW9QWT94hCADONCfbK7WA&s=09','ffcc97'],
+			['WimtomArt', 			'wimtomicon', 		'Artist of the Stages', 									'https://twitter.com/WimtomArt',		'850930'],
+			['ImCuriousYT', 		'curiousicon', 		'Charter',													'https://twitter.com/ImCuriousYT2',		'33ccff'],
+			[''],
+			['Special Thanks'],
+			['StarEntity', 			'Iconrocksta',		'Help with the kuromi\'s sprites',							'https://twitter.com/StarEntity910?t=5M5dzn_LPsHFkPzX_WlnEA&s=09','a100ff'],
+			['Beru!1!1', 			'Beru_icon',		'Idea of the mod', 											'https://twitter.com/code_beru', 		'ff695e'],
+			['TwistedGrim', 		'unknown',			'Creator of the animation of Hell On Kitty', 				'https://www.youtube.com/channel/UCJNpM63pyQtKW07zBJ9eRBA','22222c'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],

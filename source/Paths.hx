@@ -237,6 +237,26 @@ class Paths
 		var returnAsset:FlxGraphic = returnGraphic(key, library);
 		return returnAsset;
 	}
+
+	static public function randomImageFrom(key:String, ?prevRandomImage:String):String {
+		var selectedFile:String = "";
+
+		#if sys
+		var files:Array<String> = sys.FileSystem.readDirectory(key);
+		for (i in 0...files.length)
+		{
+			files[i] = StringTools.replace(files[i], ".png", "");
+		}
+
+		selectedFile = files[FlxG.random.int(0, files.length - 1)];
+		while (selectedFile == prevRandomImage)
+			selectedFile = files[FlxG.random.int(0, files.length - 1)];
+		
+		return selectedFile;
+		#end
+
+		return null;
+	}
 	
 	static public function getTextFromFile(key:String, ?ignoreMods:Bool = false):String
 	{
@@ -335,7 +355,6 @@ class Paths
 			if(!currentTrackedAssets.exists(modKey)) {
 				var newBitmap:BitmapData = BitmapData.fromFile(modKey);
 				var newGraphic:FlxGraphic = FlxGraphic.fromBitmapData(newBitmap, false, modKey);
-				newGraphic.persist = true;
 				currentTrackedAssets.set(modKey, newGraphic);
 			}
 			localTrackedAssets.push(modKey);
@@ -347,7 +366,6 @@ class Paths
 		if (OpenFlAssets.exists(path, IMAGE)) {
 			if(!currentTrackedAssets.exists(path)) {
 				var newGraphic:FlxGraphic = FlxG.bitmap.add(path, false, path);
-				newGraphic.persist = true;
 				currentTrackedAssets.set(path, newGraphic);
 			}
 			localTrackedAssets.push(path);

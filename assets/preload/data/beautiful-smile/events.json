@@ -1,0 +1,29 @@
+{
+	"song": {
+		"speed": 3,
+		"stage": "house2",
+		"player1": "bf2",
+		"player2": "kitty3",
+		"player3": null,
+		"events": [
+			[
+				136533.333333334,
+				[
+					[
+						"Play Animation",
+						"laugh",
+						"dad"
+					]
+				]
+			]
+		],
+		"notes": [],
+		"splashSkin": "noteSplashes",
+		"validScore": false,
+		"gfVersion": "gf2",
+		"bpm": 225,
+		"arrowSkin": "",
+		"needsVoices": true,
+		"song": "Beautiful Smile"
+	}
+}
